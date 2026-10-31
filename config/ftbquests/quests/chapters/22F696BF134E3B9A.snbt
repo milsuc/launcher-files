@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "22F696BF134E3B9A"
+	group: "379B136B1EBAE67C"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	hide_text_until_complete: true
+	id: "22F696BF134E3B9A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "775FC2E8BA96C1D7"
+			invisible: true
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["775FC2E8BA96C1D7"]
+			id: "02383AED2EE5E600"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "614E39C99349EC8B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:abomasnow"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

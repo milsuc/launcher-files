@@ -1,0 +1,32 @@
+{
+  "providers": [
+    {
+      "file": "minecraft:font/box_1.png",
+      "type": "bitmap",
+      "chars": ["◆"],
+      "ascent": 13,
+      "height": 256
+    },
+    {
+      "file": "minecraft:font/box_2.png",
+      "type": "bitmap",
+      "chars": ["▲"],
+      "ascent": 9,
+      "height": 104
+    },	
+    {
+      "file": "minecraft:font/box_3.png",
+      "type": "bitmap",
+      "chars": ["♪"],
+      "ascent": -32768,
+      "height": -10
+    },
+    {
+      "file": "minecraft:font/box_4.png",
+      "type": "bitmap",
+      "chars": ["◎"],
+      "ascent": 7,
+      "height": 256
+    }
+  ]
+}

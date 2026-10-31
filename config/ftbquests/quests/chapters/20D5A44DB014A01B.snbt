@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20D5A44DB014A01B"
+	group: "6995BCCA964F3B90"
+	id: "20D5A44DB014A01B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "1A9647DB02939DEE"
+			rewards: [{
+				command: "/say Hi, @p!"
+				id: "3618373707B1E4D3"
+				type: "command"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2921449E4347443A"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A9647DB02939DEE"]
+			id: "11A86C3CF017B785"
+			rewards: [{
+				id: "2975D247ED32067E"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "level_up"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1FB54444D2257C0E"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "6352E8FD9BFFAFBF"
+			tasks: [{
+				action: "have_registered"
+				amount: 100L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7A20B11796F1D067"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+	]
+}

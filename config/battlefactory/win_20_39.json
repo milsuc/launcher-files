@@ -1,0 +1,1840 @@
+{
+   "level": 50,
+   "pokemon": [
+  {
+    "id": "venusaur",
+    "species": "cobblemon:venusaur",
+    "role": "mega",
+    "moves": [
+      "giga_drain",
+      "sludge_bomb",
+      "earthquake",
+      "synthesis"
+    ],
+    "nature": "bold",
+    "ability": "thick_fat",
+    "heldItem": "cobblemon:venusaurite"
+  },
+  {
+    "id": "charizard",
+    "species": "cobblemon:charizard",
+    "role": "mega",
+    "moves": [
+      "flare_blitz",
+      "outrage",
+      "dragon_dance",
+      "earthquake"
+    ],
+    "nature": "jolly",
+    "ability": "Blaze",
+    "heldItem": "cobblemon:charizardite_x"
+  },
+  {
+    "id": "blastoise",
+    "species": "cobblemon:blastoise",
+    "role": "mega",
+    "moves": [
+      "water_pulse",
+      "dark_pulse",
+      "aura_sphere",
+      "shell_smash"
+    ],
+    "nature": "modest",
+    "ability": "mega_launcher",
+    "heldItem": "cobblemon:blastoisinite"
+  },
+  {
+    "id": "pidgeot",
+    "species": "cobblemon:pidgeot",
+    "role": "special",
+    "moves": [
+      "hurricane",
+      "heat_wave",
+      "u_turn",
+      "roost"
+    ],
+    "nature": "timid",
+    "ability": "keen_eye",
+    "heldItem": "cobblemon:heavy_duty_boots"
+  },
+  {
+    "id": "nidoqueen",
+    "species": "cobblemon:nidoqueen",
+    "role": "bulky",
+    "moves": [
+      "earth_power",
+      "sludge_bomb",
+      "ice_beam",
+      "stealth_rock"
+    ],
+    "nature": "bold",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "nidoking",
+    "species": "cobblemon:nidoking",
+    "role": "special",
+    "moves": [
+      "earth_power",
+      "sludge_wave",
+      "ice_beam",
+      "thunderbolt"
+    ],
+    "nature": "timid",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:quick_claw"
+  },
+  {
+    "id": "crobat",
+    "species": "cobblemon:crobat",
+    "role": "bulky",
+    "moves": [
+      "brave_bird",
+      "u_turn",
+      "roost",
+      "defog"
+    ],
+    "nature": "jolly",
+    "ability": "infiltrator",
+    "heldItem": "cobblemon:black_sludge"
+  },
+  {
+    "id": "golduck",
+    "species": "cobblemon:golduck",
+    "role": "special",
+    "moves": [
+      "hydro_pump",
+      "ice_beam",
+      "psychic",
+      "focus_blast"
+    ],
+    "nature": "modest",
+    "ability": "swift_swim",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "primeape",
+    "species": "cobblemon:primeape",
+    "role": "physical",
+    "moves": [
+      "close_combat",
+      "u_turn",
+      "gunk_shot",
+      "ice_punch"
+    ],
+    "nature": "jolly",
+    "ability": "defiant",
+    "heldItem": "cobblemon:choice_scarf"
+  },
+  {
+    "id": "machamp",
+    "species": "cobblemon:machamp",
+    "role": "physical",
+    "moves": [
+      "dynamic_punch",
+      "knock_off",
+      "bullet_punch",
+      "stone_edge"
+    ],
+    "nature": "adamant",
+    "ability": "no_guard",
+    "heldItem": "cobblemon:flame_orb"
+  },
+  {
+    "id": "exeggutor",
+    "species": "cobblemon:exeggutor",
+    "role": "special",
+    "moves": [
+      "leaf_storm",
+      "psychic",
+      "giga_drain",
+      "flamethrower"
+    ],
+    "nature": "modest",
+    "ability": "chlorophyll",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "marowak",
+    "species": "cobblemon:marowak",
+    "role": "physical",
+    "moves": [
+      "bonemerang",
+      "knock_off",
+      "stone_edge",
+      "fire_punch"
+    ],
+    "nature": "adamant",
+    "ability": "rock_head",
+    "heldItem": "cobblemon:thick_club"
+  },
+  {
+    "id": "hitmonlee",
+    "species": "cobblemon:hitmonlee",
+    "role": "physical",
+    "moves": [
+      "high_jump_kick",
+      "knock_off",
+      "poison_jab",
+      "rapid_spin"
+    ],
+    "nature": "jolly",
+    "ability": "unburden",
+    "heldItem": "cobblemon:normal_gem"
+  },
+  {
+    "id": "hitmonchan",
+    "species": "cobblemon:hitmonchan",
+    "role": "physical",
+    "moves": [
+      "drain_punch",
+      "mach_punch",
+      "ice_punch",
+      "fire_punch"
+    ],
+    "nature": "adamant",
+    "ability": "iron_fist",
+    "heldItem": "cobblemon:assault_vest"
+  },
+  {
+    "id": "weezing",
+    "species": "cobblemon:weezing",
+    "role": "bulky",
+    "moves": [
+      "sludge_bomb",
+      "will_o_wisp",
+      "pain_split",
+      "toxic_spikes"
+    ],
+    "nature": "bold",
+    "ability": "levitate",
+    "heldItem": "cobblemon:black_sludge"
+  },
+  {
+    "id": "kingdra",
+    "species": "cobblemon:kingdra",
+    "role": "special",
+    "moves": [
+      "hydro_pump",
+      "draco_meteor",
+      "surf",
+      "ice_beam"
+    ],
+    "nature": "modest",
+    "ability": "swift_swim",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "starmie",
+    "species": "cobblemon:starmie",
+    "role": "special",
+    "moves": [
+      "hydro_pump",
+      "thunderbolt",
+      "ice_beam",
+      "rapid_spin"
+    ],
+    "nature": "timid",
+    "ability": "analytic",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "scyther",
+    "species": "cobblemon:scyther",
+    "role": "physical",
+    "moves": [
+      "dual_wingbeat",
+      "u_turn",
+      "swords_dance",
+      "roost"
+    ],
+    "nature": "jolly",
+    "ability": "technician",
+    "heldItem": "cobblemon:eviolite"
+  },
+  {
+    "id": "pinsir",
+    "species": "cobblemon:pinsir",
+    "role": "physical",
+    "moves": [
+      "return",
+      "quick_attack",
+      "earthquake",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "aerilate",
+    "heldItem": "cobblemon:sitrus_berry "
+  },
+  {
+    "id": "tauros",
+    "species": "cobblemon:tauros",
+    "role": "physical",
+    "moves": [
+      "double_edge",
+      "close_combat",
+      "rock_slide",
+      "iron_head"
+    ],
+    "nature": "jolly",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:quick_claw"
+  },
+  {
+    "id": "meganium",
+    "species": "cobblemon:meganium",
+    "role": "bulky",
+    "moves": [
+      "giga_drain",
+      "aromatherapy",
+      "synthesis",
+      "toxic"
+    ],
+    "nature": "calm",
+    "ability": "overgrow",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "typhlosion",
+    "species": "cobblemon:typhlosion",
+    "role": "special",
+    "moves": [
+      "eruption",
+      "fire_blast",
+      "extrasensory",
+      "focus_blast"
+    ],
+    "nature": "timid",
+    "ability": "flash_fire",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "feraligatr",
+    "species": "cobblemon:feraligatr",
+    "role": "physical",
+    "moves": [
+      "liquidation",
+      "ice_punch",
+      "crunch",
+      "dragon_dance"
+    ],
+    "nature": "jolly",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "lanturn",
+    "species": "cobblemon:lanturn",
+    "role": "bulky",
+    "moves": [
+      "scald",
+      "volt_switch",
+      "heal_bell",
+      "toxic"
+    ],
+    "nature": "calm",
+    "ability": "volt_absorb",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "ampharos",
+    "species": "cobblemon:ampharos",
+    "role": "mega",
+    "moves": [
+      "thunderbolt",
+      "dragon_pulse",
+      "focus_blast",
+      "volt_switch"
+    ],
+    "nature": "modest",
+    "ability": "Static",
+    "heldItem": "cobblemon:ampharosite"
+  },
+  {
+    "id": "azumarill",
+    "species": "cobblemon:azumarill",
+    "role": "physical",
+    "moves": [
+      "play_rough",
+      "liquidation",
+      "aqua_jet",
+      "belly_drum"
+    ],
+    "nature": "adamant",
+    "ability": "huge_power",
+    "heldItem": "cobblemon:sitrus_berry"
+  },
+  {
+    "id": "quagsire",
+    "species": "cobblemon:quagsire",
+    "role": "bulky",
+    "moves": [
+      "scald",
+      "earthquake",
+      "recover",
+      "toxic"
+    ],
+    "nature": "relaxed",
+    "ability": "unaware",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "espeon",
+    "species": "cobblemon:espeon",
+    "role": "special",
+    "moves": [
+      "psychic",
+      "shadow_ball",
+      "dazzling_gleam",
+      "trick"
+    ],
+    "nature": "timid",
+    "ability": "magic_bounce",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "umbreon",
+    "species": "cobblemon:umbreon",
+    "role": "bulky",
+    "moves": [
+      "foul_play",
+      "wish",
+      "protect",
+      "heal_bell"
+    ],
+    "nature": "bold",
+    "ability": "synchronize",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "steelix",
+    "species": "cobblemon:steelix",
+    "role": "mega",
+    "moves": [
+      "heavy_slam",
+      "earthquake",
+      "stealth_rock",
+      "toxic"
+    ],
+    "nature": "relaxed",
+    "ability": "Sheer_Force",
+    "heldItem": "cobblemon:steelixite"
+  },
+  {
+    "id": "skarmory",
+    "species": "cobblemon:skarmory",
+    "role": "bulky",
+    "moves": [
+      "brave_bird",
+      "body_press",
+      "roost",
+      "spikes"
+    ],
+    "nature": "impish",
+    "ability": "sturdy",
+    "heldItem": "cobblemon:rocky_helmet"
+  },
+  {
+    "id": "houndoom",
+    "species": "cobblemon:houndoom",
+    "role": "mega",
+    "moves": [
+      "fire_blast",
+      "dark_pulse",
+      "nasty_plot",
+      "sludge_bomb"
+    ],
+    "nature": "timid",
+    "ability": "Unnerve",
+    "heldItem": "cobblemon:houndoominite"
+  },
+  {
+    "id": "donphan",
+    "species": "cobblemon:donphan",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "rapid_spin",
+      "knock_off",
+      "ice_shard"
+    ],
+    "nature": "adamant",
+    "ability": "sturdy",
+    "heldItem": "cobblemon:assault_vest"
+  },
+  {
+    "id": "blissey",
+    "species": "cobblemon:blissey",
+    "role": "bulky",
+    "moves": [
+      "seismic_toss",
+      "soft_boiled",
+      "stealth_rock",
+      "toxic"
+    ],
+    "nature": "bold",
+    "ability": "natural_cure",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "sceptile",
+    "species": "cobblemon:sceptile",
+    "role": "mega",
+    "moves": [
+      "leaf_storm",
+      "dragon_pulse",
+      "focus_blast",
+      "giga_drain"
+    ],
+    "nature": "timid",
+    "ability": "Overgrow",
+    "heldItem": "cobblemon:sceptilite"
+  },
+  {
+    "id": "blaziken",
+    "species": "cobblemon:blaziken",
+    "role": "mega",
+    "moves": [
+      "flare_blitz",
+      "close_combat",
+      "knock_off",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "speed_boost",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "swampert",
+    "species": "cobblemon:swampert",
+    "role": "mega",
+    "moves": [
+      "waterfall",
+      "earthquake",
+      "ice_punch",
+      "stealth_rock"
+    ],
+    "nature": "adamant",
+    "ability": "swift_swim",
+    "heldItem": "cobblemon:swampertite"
+  },
+  {
+    "id": "gardevoir",
+    "species": "cobblemon:gardevoir",
+    "role": "mega",
+    "moves": [
+      "hyper_voice",
+      "psychic",
+      "focus_blast",
+      "calm_mind"
+    ],
+    "nature": "timid",
+    "ability": "Trace",
+    "heldItem": "cobblemon:gardevoirite"
+  },
+  {
+    "id": "gallade", 
+    "species": "cobblemon:gallade", 
+    "role": "physical", 
+    "moves": [ 
+    "close_combat", 
+    "psycho_cut",
+     "sacred_sword",
+     "swords_dance" 
+],
+    "nature": "jolly", 
+    "ability": "sharpness", 
+    "heldItem": 
+    "cobblemon:choice_scarf" 
+  },
+  {
+    "id": "breloom",
+    "species": "cobblemon:breloom",
+    "role": "physical",
+    "moves": [
+      "bullet_seed",
+      "mach_punch",
+      "rock_tomb",
+      "spore"
+    ],
+    "nature": "jolly",
+    "ability": "technician",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "mawile",
+    "species": "cobblemon:mawile",
+    "role": “physical",
+    "moves": [
+      "play_rough",
+      "iron_head",
+      "sucker_punch",
+      "swords_dance"
+    ],
+    "nature": "adamant",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:focus_sash "
+  },
+  {
+    "id": "aggron",
+    "species": "cobblemon:aggron",
+    "role": "mega",
+    "moves": [
+      "heavy_slam",
+      "earthquake",
+      "stealth_rock",
+      "thunder_wave"
+    ],
+    "nature": "relaxed",
+    "ability": "filter",
+    "heldItem": "cobblemon:aggronite"
+  },
+  {
+    "id": "medicham",
+    "species": "cobblemon:medicham",
+    "role": "mega",
+    "moves": [
+      "high_jump_kick",
+      "zen_headbutt",
+      "ice_punch",
+      "fake_out"
+    ],
+    "nature": "jolly",
+    "ability": "pure_power",
+    "heldItem": "cobblemon:medichamite"
+  },
+  {
+    "id": "sharpedo", 
+    "species": "cobblemon:sharpedo",
+     "role": "physical",
+    "moves": [ 
+    "crunch", 
+    "liquidation",
+    "ice_fang",
+    "protect" 
+], 
+   "nature": "adamant", 
+   "ability": "speed_boost",
+    "heldItem": "cobblemon:life_orb" 
+  },
+  {
+    "id": "camerupt",
+    "species": "cobblemon:camerupt",
+    "role": "mega",
+    "moves": [
+      "fire_blast",
+      "earth_power",
+      "stealth_rock",
+      "flash_cannon"
+    ],
+    "nature": "quiet",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:cameruptite"
+  },
+  {
+    "id": "flygon",
+    "species": "cobblemon:flygon",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "outrage",
+      "u_turn",
+      "dragon_dance"
+    ],
+    "nature": "jolly",
+    "ability": "levitate",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "cradily",
+    "species": "cobblemon:cradily",
+    "role": "bulky",
+    "moves": [
+      "recover",
+      "stealth_rock",
+      "giga_drain",
+      "rock_slide"
+    ],
+    "nature": "bold",
+    "ability": "suction_cups",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "milotic",
+    "species": "cobblemon:milotic",
+    "role": "bulky",
+    "moves": [
+      "scald",
+      "recover",
+      "ice_beam",
+      "toxic"
+    ],
+    "nature": "bold",
+    "ability": "marvel_scale",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "glalie",
+    "species": "cobblemon:glalie",
+    "role": "mega",
+    "moves": [
+      "double_edge",
+      "ice_shard",
+      "earthquake",
+      "freeze_dry"
+    ],
+    "nature": "jolly",
+    "ability": "refrigerate",
+    "heldItem": "cobblemon:glalitite"
+  },
+  {
+    "id": "torterra",
+    "species": "cobblemon:torterra",
+    "role": "physical",
+    "moves": [
+      "wood_hammer",
+      "earthquake",
+      "stone_edge",
+      "shell_smash"
+    ],
+    "nature": "adamant",
+    "ability": "shell_armor",
+    "heldItem": "cobblemon:white_herb"
+  },
+  {
+    "id": "infernape",
+    "species": "cobblemon:infernape",
+    "role": "mixed",
+    "moves": [
+      "flare_blitz",
+      "close_combat",
+      "overheat",
+      "grass_knot"
+    ],
+    "nature": "naive",
+    "ability": "blaze",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "empoleon",
+    "species": "cobblemon:empoleon",
+    "role": "bulky",
+    "moves": [
+      "scald",
+      "defog",
+      "stealth_rock",
+      "toxic"
+    ],
+    "nature": "calm",
+    "ability": "torrent",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "staraptor",
+    "species": "cobblemon:staraptor",
+    "role": "physical",
+    "moves": [
+      "brave_bird",
+      "double_edge",
+      "close_combat",
+      "u_turn"
+    ],
+    "nature": "jolly",
+    "ability": "reckless",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "rampardos",
+    "species": "cobblemon:rampardos",
+    "role": "physical",
+    "moves": [
+      "head_smash",
+      "zen_headbutt",
+      "earthquake",
+      "rock_polish"
+    ],
+    "nature": "adamant",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "bastiodon",
+    "species": "cobblemon:bastiodon",
+    "role": "bulky",
+    "moves": [
+      "metal_burst",
+      "stealth_rock",
+      "toxic",
+      "iron_head"
+    ],
+    "nature": "careful",
+    "ability": "sturdy",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "gastrodon",
+    "species": "cobblemon:gastrodon",
+    "role": "bulky",
+    "moves": [
+      "scald",
+      "earth_power",
+      "recover",
+      "toxic"
+    ],
+    "nature": "relaxed",
+    "ability": "storm_drain",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "ambipom",
+    "species": "cobblemon:ambipom",
+    "role": "physical",
+    "moves": [
+      "fake_out",
+      "double_hit",
+      "knock_off",
+      "u_turn"
+    ],
+    "nature": "jolly",
+    "ability": "technician",
+    "heldItem": "cobblemon:choice_scarf"
+  },
+  {
+    "id": "drifblim",
+    "species": "cobblemon:drifblim",
+    "role": "bulky",
+    "moves": [
+      "strength_sap",
+      "shadow_ball",
+      "hex",
+      "will_o_wisp"
+    ],
+    "nature": "bold",
+    "ability": "unburden",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "lopunny",
+    "species": "cobblemon:lopunny",
+    "role": "mega",
+    "moves": [
+      "return",
+      "high_jump_kick",
+      "u_turn",
+      "fake_out"
+    ],
+    "nature": "jolly",
+    "ability": "scrappy",
+    "heldItem": "cobblemon:lopunnite"
+  },
+  {
+    "id": "spiritomb",
+    "species": "cobblemon:spiritomb",
+    "role": "bulky",
+    "moves": [
+      "foul_play",
+      "will_o_wisp",
+      "shadow_sneak",
+      "pain_split"
+    ],
+    "nature": "bold",
+    "ability": "pressure",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "snorlax",
+    "species": "cobblemon:snorlax",
+    "role": “bulky",
+    "moves": [
+      "giga_impact",
+      "fire_punch",
+      "earthquake",
+      "curse"
+    ],
+    "nature": "adamant",
+    "ability": "thick_fat",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "lucario",
+    "species": "cobblemon:lucario",
+    "role": "mega",
+    "moves": [
+      "close_combat",
+      "meteor_mash",
+      "bullet_punch",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "adaptability",
+    "heldItem": "cobblemon:lucarionite"
+  },
+  {
+    "id": "hippowdon",
+    "species": "cobblemon:hippowdon",
+    "role": "bulky",
+    "moves": [
+      "earthquake",
+      "slack_off",
+      "stealth_rock",
+      "whirlwind"
+    ],
+    "nature": "impish",
+    "ability": "sand_stream",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "toxicroak",
+    "species": "cobblemon:toxicroak",
+    "role": "physical",
+    "moves": [
+      "gunk_shot",
+      "drain_punch",
+      "sucker_punch",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "dry_skin",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "abomasnow",
+    "species": "cobblemon:abomasnow",
+    "role": "mega",
+    "moves": [
+      "blizzard",
+      "giga_drain",
+      "ice_shard",
+      "earthquake"
+    ],
+    "nature": "brave",
+    "ability": "snow_warning",
+    "heldItem": "cobblemon:abomasnowite"
+  },
+  {
+    "id": "weavile",
+    "species": "cobblemon:weavile",
+    "role": "physical",
+    "moves": [
+      "triple_axel",
+      "knock_off",
+      "ice_shard",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "pressure",
+    "heldItem": "cobblemon:heavy_duty_boots"
+  },
+  {
+    "id": "drapion",
+    "species": "cobblemon:drapion",
+    "role": "physical",
+    "moves": [
+      "poison_jab",
+      "knock_off",
+      "earthquake",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "sniper",
+    "heldItem": "cobblemon:scope_lens"
+  },
+  {
+    "id": "magnezone",
+    "species": "cobblemon:magnezone",
+    "role": "special",
+    "moves": [
+      "thunderbolt",
+      "flash_cannon",
+      "volt_switch",
+      "hidden_power"
+    ],
+    "nature": "modest",
+    "ability": "magnet_pull",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "electivire",
+    "species": "cobblemon:electivire",
+    "role": "physical",
+    "moves": [
+      "wild_charge",
+      "ice_punch",
+      "earthquake",
+      "fire_punch"
+    ],
+    "nature": "jolly",
+    "ability": "motor_drive",
+    "heldItem": "cobblemon:expert_belt"
+  },
+  {
+    "id": "magmortar",
+    "species": "cobblemon:magmortar",
+    "role": "special",
+    "moves": [
+      "fire_blast",
+      "thunderbolt",
+      "focus_blast",
+      "psychic"
+    ],
+    "nature": "modest",
+    "ability": "vital_spirit",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "togekiss",
+    "species": "cobblemon:togekiss",
+    "role": "special",
+    "moves": [
+      "air_slash",
+      "nasty_plot",
+      "roost",
+      "aura_sphere"
+    ],
+    "nature": "timid",
+    "ability": "serene_grace",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "gliscor",
+    "species": "cobblemon:gliscor",
+    "role": "bulky",
+    "moves": [
+      "earthquake",
+      "toxic",
+      "roost",
+      "protect"
+    ],
+    "nature": "jolly",
+    "ability": "poison_heal",
+    "heldItem": "cobblemon:toxic_orb"
+  },
+  {
+    "id": "mamoswine",
+    "species": "cobblemon:mamoswine",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "icicle_crash",
+      "ice_shard",
+      "stealth_rock"
+    ],
+    "nature": "jolly",
+    "ability": "thick_fat",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "probopass",
+    "species": "cobblemon:probopass",
+    "role": "bulky",
+    "moves": [
+      "stealth_rock",
+      "thunder_wave",
+      "power_gem",
+      "volt_switch"
+    ],
+    "nature": "calm",
+    "ability": "sturdy",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "dusknoir",
+    "species": "cobblemon:dusknoir",
+    "role": "bulky",
+    "moves": [
+      "poltergeist",
+      "shadow_sneak",
+      "earthquake",
+      "pain_split"
+    ],
+    "nature": "adamant",
+    "ability": "pressure",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "froslass",
+    "species": "cobblemon:froslass",
+    "role": "special",
+    "moves": [
+      "ice_beam",
+      "shadow_ball",
+      "spikes",
+      "destiny_bond"
+    ],
+    "nature": "timid",
+    "ability": "cursed_body",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "rotom",
+    "species": "cobblemon:rotom",
+    "role": "special",
+    "moves": [
+      "thunderbolt",
+      "shadow_ball",
+      "volt_switch",
+      "trick"
+    ],
+    "nature": "timid",
+    "ability": "levitate",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "serperior",
+    "species": "cobblemon:serperior",
+    "role": "special",
+    "moves": [
+      "leaf_storm",
+      "dragon_pulse",
+      "glare",
+      "substitute"
+    ],
+    "nature": "timid",
+    "ability": "contrary",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "emboar",
+    "species": "cobblemon:emboar",
+    "role": "physical",
+    "moves": [
+      "flare_blitz",
+      "superpower",
+      "wild_charge",
+      "sucker_punch"
+    ],
+    "nature": "adamant",
+    "ability": "reckless",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "samurott",
+    "species": "cobblemon:samurott",
+    "role": "physical",
+    "moves": [
+      "razor_shell",
+      "megahorn",
+      "aqua_jet",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "shell_armor",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "gigalith",
+    "species": "cobblemon:gigalith",
+    "role": "bulky",
+    "moves": [
+      "stealth_rock",
+      "stone_edge",
+      "earthquake",
+      "toxic"
+    ],
+    "nature": "careful",
+    "ability": "sand_stream",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "excadrill",
+    "species": "cobblemon:excadrill",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "iron_head",
+      "rock_slide",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "sand_rush",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "conkeldurr",
+    "species": "cobblemon:conkeldurr",
+    "role": "physical",
+    "moves": [
+      "drain_punch",
+      "mach_punch",
+      "facade",
+      "knock_off"
+    ],
+    "nature": "adamant",
+    "ability": "guts",
+    "heldItem": "cobblemon:flame_orb"
+  },
+  {
+    "id": "whimsicott",
+    "species": "cobblemon:whimsicott",
+    "role": "bulky",
+    "moves": [
+      "moonblast",
+      "leech_seed",
+      "tailwind",
+      "encore"
+    ],
+    "nature": "timid",
+    "ability": "prankster",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "krookodile",
+    "species": "cobblemon:krookodile",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "knock_off",
+      "close_combat",
+      "stone_edge"
+    ],
+    "nature": "jolly",
+    "ability": "intimidate",
+    "heldItem": "cobblemon:choice_scarf"
+  },
+  {
+    "id": "darmanitan",
+    "species": "cobblemon:darmanitan",
+    "role": "physical",
+    "moves": [
+      "flare_blitz",
+      "u_turn",
+      "rock_slide",
+      "earthquake"
+    ],
+    "nature": "jolly",
+    "ability": "sheer_force",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "scrafty",
+    "species": "cobblemon:scrafty",
+    "role": "bulky",
+    "moves": [
+      "bulk_up",
+      "drain_punch",
+      "knock_off",
+      "rest"
+    ],
+    "nature": "careful",
+    "ability": "shed_skin",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "zoroark",
+    "species": "cobblemon:zoroark",
+    "role": "special",
+    "moves": [
+      "night_burst",
+      "flamethrower",
+      "sludge_bomb",
+      "nasty_plot"
+    ],
+    "nature": "timid",
+    "ability": "illusion",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "cinccino",
+    "species": "cobblemon:cinccino",
+    "role": "physical",
+    "moves": [
+      "tail_slap",
+      "bullet_seed",
+      "rock_blast",
+      "u_turn"
+    ],
+    "nature": "jolly",
+    "ability": "skill_link",
+    "heldItem": "cobblemon:loaded_dice"
+  },
+  {
+    "id": "galvantula",
+    "species": "cobblemon:galvantula",
+    "role": "special",
+    "moves": [
+      "thunder",
+      "bug_buzz",
+      "giga_drain",
+      "sticky_web"
+    ],
+    "nature": "timid",
+    "ability": "compound_eyes",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "eelektross",
+    "species": "cobblemon:eelektross",
+    "role": "mixed",
+    "moves": [
+      "wild_charge",
+      "giga_drain",
+      "flamethrower",
+      "u_turn"
+    ],
+    "nature": "brave",
+    "ability": "levitate",
+    "heldItem": "cobblemon:assault_vest"
+  },
+  {
+    "id": "chandelure",
+    "species": "cobblemon:chandelure",
+    "role": "special",
+    "moves": [
+      "shadow_ball",
+      "fire_blast",
+      "energy_ball",
+      "overheat"
+    ],
+    "nature": "timid",
+    "ability": "flash_fire",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "ferrothorn",
+    "species": "cobblemon:ferrothorn",
+    "role": "bulky",
+    "moves": [
+      "leech_seed",
+      "spikes",
+      "power_whip",
+      "gyro_ball"
+    ],
+    "nature": "relaxed",
+    "ability": "iron_barbs",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "haxorus",
+    "species": "cobblemon:haxorus",
+    "role": "physical",
+    "moves": [
+      "dragon_dance",
+      "outrage",
+      "earthquake",
+      "close_combat"
+    ],
+    "nature": "jolly",
+    "ability": "mold_breaker",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "bisharp",
+    "species": "cobblemon:bisharp",
+    "role": "physical",
+    "moves": [
+      "swords_dance",
+      "knock_off",
+      "iron_head",
+      "sucker_punch"
+    ],
+    "nature": "adamant",
+    "ability": "defiant",
+    "heldItem": "cobblemon:black_glasses"
+  },
+  {
+    "id": "chesnaught",
+    "species": "cobblemon:chesnaught",
+    "role": "bulky",
+    "moves": [
+      "spiky_shield",
+      "leech_seed",
+      "drain_punch",
+      "wood_hammer"
+    ],
+    "nature": "impish",
+    "ability": "bulletproof",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "diggersby",
+    "species": "cobblemon:diggersby",
+    "role": "physical",
+    "moves": [
+      "earthquake",
+      "quick_attack",
+      "u_turn",
+      "wild_charge"
+    ],
+    "nature": "adamant",
+    "ability": "huge_power",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "tyrantrum",
+    "species": "cobblemon:tyrantrum",
+    "role": "physical",
+    "moves": [
+      "head_smash",
+      "outrage",
+      "earthquake",
+      "close_combat"
+    ],
+    "nature": "jolly",
+    "ability": "rock_head",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "aurorus",
+    "species": "cobblemon:aurorus",
+    "role": "special",
+    "moves": [
+      "hyper_voice",
+      "earth_power",
+      "freeze_dry",
+      "stealth_rock"
+    ],
+    "nature": "modest",
+    "ability": "refrigerate",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "crabominable",
+    "species": "cobblemon:crabominable",
+    "role": "physical",
+    "moves": [
+      "close_combat",
+      "ice_hammer",
+      "earthquake",
+      "stone_edge"
+    ],
+    "nature": "adamant",
+    "ability": "iron_fist",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "lycanroc",
+    "species": "cobblemon:lycanroc",
+    "role": "Z",
+    "moves": [
+      "stone_edge",
+      "fire_fang",
+      "swords_dance",
+      "accelerock"
+    ],
+    "nature": "jolly",
+    "ability": "tough_claws",
+    "heldItem": "cobblemon:lycanium_z"
+  },
+  {
+    "id": "toxapex",
+    "species": "cobblemon:toxapex",
+    "role": "bulky",
+    "moves": [
+      "baneful_bunker",
+      "recover",
+      "toxic",
+      "scald"
+    ],
+    "nature": "bold",
+    "ability": "regenerator",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "golisopod",
+    "species": "cobblemon:golisopod",
+    "role": "physical",
+    "moves": [
+      "first_impression",
+      "liquidation",
+      "aqua_jet",
+      "spikes"
+    ],
+    "nature": "adamant",
+    "ability": "emergency_exit",
+    "heldItem": "cobblemon:heavy_duty_boots"
+  },
+  {
+    "id": "pangoro",
+    "species": "cobblemon:pangoro",
+    "role": "physical",
+    "moves": [
+      "knock_off",
+      "close_combat",
+      "gunk_shot",
+      "bullet_punch"
+    ],
+    "nature": "adamant",
+    "ability": "iron_fist",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "dragalge",
+    "species": "cobblemon:dragalge",
+    "role": "special",
+    "moves": [
+      "draco_meteor",
+      "sludge_wave",
+      "focus_blast",
+      "hydro_pump"
+    ],
+    "nature": "modest",
+    "ability": "adaptability",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "hawlucha",
+    "species": "cobblemon:hawlucha",
+    "role": "physical",
+    "moves": [
+      "acrobatics",
+      "close_combat",
+      "swords_dance",
+      "stone_edge"
+    ],
+    "nature": "adamant",
+    "ability": "unburden",
+    "heldItem": "cobblemon:electric_seed"
+  },
+  {
+    "id": "goodra",
+    "species": "cobblemon:goodra",
+    "role": "special",
+    "moves": [
+      "draco_meteor",
+      "fire_blast",
+      "thunderbolt",
+      "sludge_bomb"
+    ],
+    "nature": "modest",
+    "ability": "sap_sipper",
+    "heldItem": "cobblemon:assault_vest"
+  },
+  {
+    "id": "decidueye",
+    "species": "cobblemon:decidueye",
+    "role": "Z",
+    "moves": [
+      "spirit_shackle",
+      "leaf_blade",
+      "swords_dance",
+      "roost"
+    ],
+    "nature": "adamant",
+    "ability": "overgrow",
+    "heldItem": "cobblemon:decidium_z"
+  },
+  {
+    "id": "vikavolt",
+    "species": "cobblemon:vikavolt",
+    "role": "special",
+    "moves": [
+      "thunderbolt",
+      "bug_buzz",
+      "energy_ball",
+      "volt_switch"
+    ],
+    "nature": "modest",
+    "ability": "levitate",
+    "heldItem": "cobblemon:choice_specs"
+  },
+  {
+    "id": "coalossal",
+    "species": "cobblemon:coalossal",
+    "role": "bulky",
+    "moves": [
+      "spikes",
+      "stealth_rock",
+      "rapid_spin",
+      "flare_blitz"
+    ],
+    "nature": "relaxed",
+    "ability": "steam_engine",
+    "heldItem": "cobblemon:heavy_duty_boots"
+  },
+  {
+    "id": "grimmsnarl",
+    "species": "cobblemon:grimmsnarl",
+    "role": "bulky",
+    "moves": [
+      "reflect",
+      "light_screen",
+      "spirit_break",
+      "thunder_wave"
+    ],
+    "nature": "impish",
+    "ability": "prankster",
+    "heldItem": "cobblemon:light_clay"
+  },
+  {
+    "id": "hatterene",
+    "species": "cobblemon:hatterene",
+    "role": "special",
+    "moves": [
+      "psychic",
+      "dazzling_gleam",
+      "trick_room",
+      "healing_wish"
+    ],
+    "nature": "quiet",
+    "ability": "magic_bounce",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "sirfetchd",
+    "species": "cobblemon:sirfetchd",
+    "role": "physical",
+    "moves": [
+      "close_combat",
+      "brave_bird",
+      "first_impression",
+      "leaf_blade"
+    ],
+    "nature": "adamant",
+    "ability": "scrappy",
+    "heldItem": "cobblemon:leek"
+  },
+  {
+    "id": "skeledirge",
+    "species": "cobblemon:skeledirge",
+    "role": "bulky",
+    "moves": [
+      "torch_song",
+      "shadow_ball",
+      "slack_off",
+      "will_o_wisp"
+    ],
+    "nature": "bold",
+    "ability": "unaware",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "quaquaval",
+    "species": "cobblemon:quaquaval",
+    "role": "physical",
+    "moves": [
+      "aqua_step",
+      "close_combat",
+      "ice_spinner",
+      "roost"
+    ],
+    "nature": "jolly",
+    "ability": "moxie",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "pawmot",
+    "species": "cobblemon:pawmot",
+    "role": "physical",
+    "moves": [
+      "revival_blessing",
+      "double_shock",
+      "close_combat",
+      "mach_punch"
+    ],
+    "nature": "jolly",
+    "ability": "natural_cure",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "maushold",
+    "species": "cobblemon:maushold",
+    "role": "physical",
+    "moves": [
+      "population_bomb",
+      "bite",
+      "tidy_up",
+      "u_turn"
+    ],
+    "nature": "jolly",
+    "ability": "technician",
+    "heldItem": "cobblemon:wide_lens"
+  },
+  {
+    "id": "garganacl",
+    "species": "cobblemon:garganacl",
+    "role": "bulky",
+    "moves": [
+      "salt_cure",
+      "recover",
+      "stealth_rock",
+      "body_press"
+    ],
+    "nature": "impish",
+    "ability": "purifying_salt",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "scovillain",
+    "species": "cobblemon:scovillain",
+    "role": "mixed",
+    "moves": [
+      "fire_blast",
+      "solar_beam",
+      "fire_lash",
+      "seed_bomb"
+    ],
+    "nature": "naive",
+    "ability": "chlorophyll",
+    "heldItem": "cobblemon:life_orb"
+  },
+  {
+    "id": "tinkaton",
+    "species": "cobblemon:tinkaton",
+    "role": "bulky",
+    "moves": [
+      "gigaton_hammer",
+      "play_rough",
+      "stealth_rock",
+      "thunder_wave"
+    ],
+    "nature": "careful",
+    "ability": "mold_breaker",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "glimmora",
+    "species": "cobblemon:glimmora",
+    "role": "special",
+    "moves": [
+      "stealth_rock",
+      "mortal_spin",
+      "sludge_wave",
+      "power_gem"
+    ],
+    "nature": "timid",
+    "ability": "toxic_debris",
+    "heldItem": "cobblemon:focus_sash"
+  },
+  {
+    "id": "dondozo",
+    "species": "cobblemon:dondozo",
+    "role": "bulky",
+    "moves": [
+      "liquidation",
+      "body_press",
+      "rest",
+      "sleep_talk"
+    ],
+    "nature": "impish",
+    "ability": "unaware",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "raichu",
+    "species": "cobblemon:raichu",
+    "role": "Z",
+    "moves": [
+      "thunderbolt",
+      "psychic",
+      "surf",
+      "nasty_plot"
+    ],
+    "nature": "timid",
+    "ability": "surge_surfer",
+    "heldItem": "cobblemon:aloraichium_z"
+  },
+  {
+    "id": "alakazam",
+    "species": "cobblemon:alakazam",
+    "role": "mega",
+    "moves": [
+      "psychic",
+      "focus_blast",
+      "shadow_ball",
+      "calm_mind"
+    ],
+    "nature": "timid",
+    "ability": "trace",
+    "heldItem": "cobblemon:alakazite"
+  },
+  {
+    "id": "cloyster",
+    "species": "cobblemon:cloyster",
+    "role": "physical",
+    "moves": [
+      "shell_smash",
+      "icicle_spear",
+      "rock_blast",
+      "razor_shell"
+    ],
+    "nature": "adamant",
+    "ability": "skill_link",
+    "heldItem": "cobblemon:white_herb"
+  },
+  {
+    "id": "lapras",
+    "species": "cobblemon:lapras",
+    "role": "bulky",
+    "moves": [
+      "freeze_dry",
+      "scald",
+      "ice_shard",
+      "toxic"
+    ],
+    "nature": "calm",
+    "ability": "water_absorb",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "absol",
+    "species": "cobblemon:absol",
+    "role": "mega",
+    "moves": [
+      "knock_off",
+      "sucker_punch",
+      "play_rough",
+      "swords_dance"
+    ],
+    "nature": "jolly",
+    "ability": "magic_bounce",
+    "heldItem": "cobblemon:absolite"
+  },
+  {
+    "id": "mudsdale",
+    "species": "cobblemon:mudsdale",
+    "role": "bulky",
+    "moves": [
+      "earthquake",
+      "stealth_rock",
+      "body_press",
+      "toxic"
+    ],
+    "nature": "impish",
+    "ability": "stamina",
+    "heldItem": "cobblemon:leftovers"
+  },
+  {
+    "id": "dracozolt",
+    "species": "cobblemon:dracozolt",
+    "role": "physical",
+    "moves": [
+      "bolt_beak",
+      "dragon_claw",
+      "earthquake",
+      "fire_fang"
+    ],
+    "nature": "jolly",
+    "ability": "hustle",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "arctozolt",
+    "species": "cobblemon:arctozolt",
+    "role": "physical",
+    "moves": [
+      "bolt_beak",
+      "icicle_crash",
+      "freeze_dry",
+      "low_kick"
+    ],
+    "nature": "jolly",
+    "ability": "slush_rush",
+    "heldItem": "cobblemon:choice_band"
+  },
+  {
+    "id": "arctovish",
+    "species": "cobblemon:arctovish",
+    "role": "physical",
+    "moves": [
+      "fishious_rend",
+      "icicle_crash",
+      "psychic_fangs",
+      "freeze_dry"
+    ],
+    "nature": "jolly",
+    "ability": "slush_rush",
+    "heldItem": "cobblemon:choice_band"
+  }
+]
+}

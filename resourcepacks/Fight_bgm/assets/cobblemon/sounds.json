@@ -1,0 +1,49 @@
+{
+  "battle.pvn.default": {
+    "sounds": [
+      {
+        "name": "cobblemon:battle/trainer/battletrainerbw2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "battle.pvp.default": {
+    "sounds": [
+      {
+        "name": "cobblemon:battle/trainer/battletrainerbw3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "battle.pvw.default": {
+    "sounds": [
+      {
+        "name": "cobblemon:battle/wild/battlewild1",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "cobblemon:battle/wild/battlewild2",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "cobblemon:battle/wild/battlewild3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "cobblemon:battle/wild/battlewild4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "cobblemon:battle/wild/battlewild5",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  }
+}

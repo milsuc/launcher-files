@@ -1,0 +1,49 @@
+localized-name-moves: true
+filler-choice-pokemon-u-i: true
+filler-choice-moves-u-i: true
+filler-sure-u-i: true
+information-u-i: true
+select-pokemon-title: Select pokemon
+select-move-title: Select move
+accept-title: Are you sure?
+filler-item: minecraft:white_stained_glass_pane:0
+empty-pokemon-item: cobblemon:poke_ball
+previous-page-item: minecraft:arrow:0
+next-page-item: minecraft:arrow:0
+back-item: minecraft:red_stained_glass_pane:0
+accept-item: minecraft:lime_stained_glass_pane:0
+coming-item: minecraft:white_stained_glass_pane:0
+cancel-item: minecraft:red_stained_glass_pane:0
+information-item: minecraft:white_stained_glass_pane:0
+filter-item: minecraft:hopper
+empty-pokemon-name: '&c비어있음'
+previous-page-name: Previous page
+next-page-name: 다음 페이지
+back-name: '&c돌아가기'
+accept-name: '&a기술 배우기'
+cancel-name: '&c돌아가기'
+information-name: 포켓몬을 선택하여 몰랐던 기술들을 떠올리게 할 수 있습니다.
+filter-name: 필터
+filter-symbol: '&7» '
+moves-lore: '&7보유 기술: '
+move-symbol: '&7» '
+localized-move-name: ' &7(%move%)'
+localized-move-lore: ' &7(%move%)'
+type-lore: '타입: '
+power-lore: '위력: %amount%'
+accuracy-lore: '정확도: %amount%'
+pp-lore: 'PP: %amount% (%maxAmount%)'
+price-lore: '가격: %amount% %currency%'
+price-free-lore: '가격: free'
+filter-all: 모든기술
+filter-level: 레벨업으로 배울 수 있는 기술
+filter-t-m: 기술머신을 사용해서 배우는 기술
+filter-legacy: 예전 방식으로만 가능했던 기술
+filter-tutor: 시스템으로 따로 가르치는 기술
+filter-special: 특수 조건 기술
+filter-egg: 교배로만 배우는 기술
+item-currency: rare candy
+cobblemon-currency: cobbledollars
+impactor-currency: money
+not-valid-currency: '&cType currency - %currency% not supported.'
+information-lore: In this menu you can select a Pokemon that will be equipped with any move available to it of your choice.

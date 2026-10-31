@@ -1,0 +1,40 @@
+low-permission: true
+
+# Currency type: item, cobbledollars, impactor.
+currency-type: item
+
+# The item that will be used as payment.
+item-price-move: cobblemon:rare_candy
+
+# Will there be strict compliance testing of items?
+item-strong-tags: true
+
+# Hide already move pokemon?
+hide-already-move: false
+
+# Will it be possible to set up this type of attack?
+legacy-move: true
+
+# Will it be possible to set up this type of attack?
+special-move: true
+
+# Will it be possible to set up this type of attack?
+egg-move: true
+
+# Number of currency per attack type.
+level-move-price: 16
+
+# Number of currency per attack type.
+tm-move-price: 16
+
+# Number of currency per attack type.
+legacy-move-price: 32
+
+# Number of currency per attack type.
+tutor-move-price: 16
+
+# Number of currency per attack type.
+special-move-price: 16
+
+# Number of currency per attack type.
+egg-move-price: 32

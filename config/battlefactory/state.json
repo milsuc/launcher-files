@@ -1,0 +1,92 @@
+{
+  "active": [],
+  "left": [],
+  "offers": {
+    "3096cf1a-c226-4265-af22-530df21e1c8f": [
+      {
+        "id": "sableye",
+        "species": "cobblemon:sableye",
+        "role": "bulky",
+        "moves": [
+          "knock_off",
+          "will_o_wisp",
+          "recover",
+          "foul_play"
+        ],
+        "nature": "impish",
+        "ability": "prankster",
+        "heldItem": "cobblemon:leftovers"
+      },
+      {
+        "id": "stantler",
+        "species": "cobblemon:stantler",
+        "role": "physical",
+        "moves": [
+          "double_edge",
+          "jump_kick",
+          "zen_headbutt",
+          "megahorn"
+        ],
+        "nature": "jolly",
+        "ability": "intimidate",
+        "heldItem": "cobblemon:life_orb"
+      },
+      {
+        "id": "oricorio",
+        "species": "cobblemon:oricorio",
+        "role": "special",
+        "moves": [
+          "revelation_dance",
+          "hurricane",
+          "quiver_dance",
+          "roost"
+        ],
+        "nature": "timid",
+        "ability": "dancer",
+        "heldItem": "cobblemon:heavy_duty_boots"
+      },
+      {
+        "id": "zangoose",
+        "species": "cobblemon:zangoose",
+        "role": "physical",
+        "moves": [
+          "facade",
+          "close_combat",
+          "quick_attack",
+          "knock_off"
+        ],
+        "nature": "jolly",
+        "ability": "toxic_boost",
+        "heldItem": "cobblemon:toxic_orb"
+      },
+      {
+        "id": "crustle",
+        "species": "cobblemon:crustle",
+        "role": "physical",
+        "moves": [
+          "shell_smash",
+          "stone_edge",
+          "earthquake",
+          "x_scissor"
+        ],
+        "nature": "adamant",
+        "ability": "sturdy",
+        "heldItem": "cobblemon:white_herb"
+      },
+      {
+        "id": "obstagoon",
+        "species": "cobblemon:obstagoon",
+        "role": "physical",
+        "moves": [
+          "facade",
+          "knock_off",
+          "close_combat",
+          "obstruct"
+        ],
+        "nature": "jolly",
+        "ability": "guts",
+        "heldItem": "cobblemon:flame_orb"
+      }
+    ]
+  }
+}

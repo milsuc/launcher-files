@@ -1,0 +1,3 @@
+# Ay Chat keyword filter
+# Add one keyword per line. Empty lines and lines starting with # are ignored.
+# Matching is case-insensitive and uses plain substring matching.

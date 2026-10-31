@@ -1,0 +1,41 @@
+{
+  "configVersion": 2,
+  "level": 10,
+  "perfectIvs": true,
+  "shinyChance": 0,
+  "oneOfEachType": true,
+  "grass": [
+    "bulbasaur",
+    "chikorita",
+    "treecko",
+    "turtwig",
+    "snivy",
+    "chespin",
+    "rowlet",
+    "grookey",
+    "sprigatito"
+  ],
+  "fire": [
+    "charmander",
+    "cyndaquil",
+    "torchic",
+    "chimchar",
+    "tepig",
+    "fennekin",
+    "litten",
+    "scorbunny",
+    "fuecoco"
+  ],
+  "water": [
+    "squirtle",
+    "totodile",
+    "mudkip",
+    "piplup",
+    "oshawott",
+    "froakie",
+    "popplio",
+    "sobble",
+    "quaxly"
+  ],
+  "message": "&a[스타팅] &f{pokemon}&a와(과) 함께 모험을 시작해요!"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "wild_training",
+  "name": "야생 실전 훈련",
+  "description": "야생 포켓몬과의 대결에서 승리하자.",
+  "questType": "NORMAL",
+  "prerequisites": [],
+  "nextQuests": [],
+  "conditions": [
+    {
+      "type": "WILD_BATTLE_WIN",
+      "target": "",
+      "amount": 5,
+      "level": 1,
+      "display": "야생 포켓몬 대결 승리"
+    }
+  ],
+  "rewards": [],
+  "autoReward": true,
+  "resetOnReject": true
+}

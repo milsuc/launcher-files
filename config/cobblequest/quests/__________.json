@@ -1,0 +1,26 @@
+{
+  "id": "__________",
+  "name": "전기 포켓몬 조사",
+  "description": "전기 타입 포켓몬을 조사해보자.",
+  "questType": "NORMAL",
+  "prerequisites": [],
+  "nextQuests": [],
+  "conditions": [
+    {
+      "type": "TRAINER_BATTLE_WIN",
+      "target": "electric",
+      "amount": 3,
+      "level": 1,
+      "display": "체육관 관장 클리어"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "COMMAND",
+      "value": "give %player% cobblemon:rare_candy 3",
+      "amount": 1
+    }
+  ],
+  "autoReward": true,
+  "resetOnReject": true
+}

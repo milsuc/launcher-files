@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: "6995BCCA964F3B90"
+	hide_quest_until_deps_complete: true
+	id: "05BD7E44D302F495"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "285F83D16076EBE2"
+		rewards: [{
+			id: "233AB62593129A36"
+			item: {
+				count: 1
+				id: "minecraft:mossy_cobblestone_wall"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "5860FDD98C3CAE4D"
+			item: { count: 1, id: "minecraft:spruce_log" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
+}

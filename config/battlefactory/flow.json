@@ -1,0 +1,28 @@
+{
+  "lobbyNpcName": "배틀팩토리_",
+  "battleNpcName": "배틀팩토리NPC",
+  "level": 50,
+  "startSteps": [
+    "console: mv clone personalbattlefactoy {player}-personalbattlefactoy",
+    "console: mvtp {player} {player}-personalbattlefactoy --unsafe",
+    "op: 워프 이동 배틀팩토리시작",
+    "wait: 20",
+    "battle"
+  ],
+  "winSteps": [
+    "wait: 40",
+    "op: 워프 이동 배틀팩토리대기실",
+    "wait: 10",
+    "lounge"
+  ],
+  "nextSteps": [
+    "op: 워프 이동 배틀팩토리시작",
+    "wait: 20",
+    "battle"
+  ],
+  "endSteps": [
+    "console: mv remove {player}-personalbattlefactoy --remove-players",
+    "console: 월드폴더삭제 {player}-personalbattlefactoy",
+    "op: 워프 이동 배틀팩토리"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "serverName": "",
+  "lobby": "start",
+  "sharedDir": "../network",
+  "rememberLastServer": true,
+  "crossServerChat": true,
+  "names": {
+    "start": "시작",
+    "town01": "마을 1서버",
+    "town02": "마을 2서버",
+    "town03": "마을 3서버",
+    "town04": "마을 4서버",
+    "wild01": "야생 1서버",
+    "wild02": "야생 2서버",
+    "wild03": "야생 3서버",
+    "wild04": "야생 4서버",
+    "adventure01": "모험 1서버",
+    "adventure02": "모험 2서버",
+    "adventure03": "모험 3서버",
+    "adventure04": "모험 4서버"
+  },
+  "warps": [
+    {
+      "id": "adventure",
+      "label": "모험",
+      "servers": [
+        "adventure01",
+        "adventure02",
+        "adventure03",
+        "adventure04"
+      ],
+      "command": ""
+    },
+    {
+      "id": "battlefactory",
+      "label": "배틀팩토리",
+      "servers": [
+        "start"
+      ],
+      "command": "warp battlefactory"
+    },
+    {
+      "id": "wild",
+      "label": "야생",
+      "servers": [
+        "wild01",
+        "wild02",
+        "wild03",
+        "wild04"
+      ],
+      "command": ""
+    },
+    {
+      "id": "village",
+      "label": "마을",
+      "servers": [
+        "town01",
+        "town02",
+        "town03",
+        "town04"
+      ],
+      "command": ""
+    }
+  ]
+}

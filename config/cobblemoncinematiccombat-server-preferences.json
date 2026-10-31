@@ -1,0 +1,23 @@
+{
+  "cameraWildPve": true,
+  "cameraNpc": true,
+  "cameraPlayer": true,
+  "cameraAutoJoinSpectator": true,
+  "arenaWildPve": false,
+  "arenaNpc": true,
+  "arenaPlayer": true,
+  "arenaAllowSpectators": true,
+  "renderWeather": true,
+  "renderSounds": true,
+  "cameraMotionSpeedMultiplier": 0.65,
+  "defaultGym": "arena",
+  "allowPlayerGymSelection": true,
+  "allowedCameraAngles": [
+    "rotational",
+    "slide",
+    "static_close_front",
+    "static_split_close_front",
+    "top_down"
+  ],
+  "cameraZoomDistanceMultiplier": 1.0
+}

@@ -1,0 +1,14 @@
+reload: '&e(!) Configs reloaded.'
+open-learn: '&e(!) Learn menu opened %player%.'
+buy-move: '&e[!] %currency% %amount%개를 지불하고 %pokemon%에게 %move%를 가르쳤습니다.'
+buy-move-free: '&e[!] %pokemon%에게 %move%를 가르쳤습니다.'
+error-reload: '&c(!) Reload error, checking console and fixes config.'
+not-currency: '&c[!] 기술을 배우려면 %currency% %amount%개가 필요합니다.'
+not-pokemon: '&c(!) The pokemon you selected is not on your team.'
+already-move: '&c[!] 이미 이 기술(%move%)은 %pokemon%이(가) 알고 있습니다.'
+not-valid-currency: '&c(!) Type currency - %currency% not supported.'
+not-valid-item: '&c(!) The item specified in the configuration is incorrect or does not exist, please inform the administration about it.'
+error: '&c(!) Error. Try again.'
+item-currency: rare candy
+cobblemon-currency: cobbledollars
+impactor-currency: money

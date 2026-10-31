@@ -1,0 +1,153 @@
+{
+  "gyms": [
+    {
+      "name": "웅",
+      "title": "1번째 체육관 : 웅",
+      "type": "바위",
+      "level": 20,
+      "badge": "근근뱃지",
+      "cap": 30,
+      "mob": "웅1",
+      "trainerNormal": "normal_gym1",
+      "trainerHard": "hard_gym1",
+      "battleLevel": 20
+    },
+    {
+      "name": "유채",
+      "title": "2번째 체육관 : 유채",
+      "type": "풀",
+      "level": 20,
+      "badge": "잎새뱃지",
+      "cap": 40,
+      "mob": "유채1",
+      "trainerNormal": "normal_gym2",
+      "trainerHard": "hard_gym2",
+      "battleLevel": 30
+    },
+    {
+      "name": "무청",
+      "title": "3번째 체육관 : 무청",
+      "type": "얼음",
+      "level": 40,
+      "badge": "눈꽃뱃지",
+      "cap": 50,
+      "mob": "무청1",
+      "trainerNormal": "normal_gym3",
+      "trainerHard": "hard_gym3",
+      "battleLevel": 40
+    },
+    {
+      "name": "코르니",
+      "title": "4번째 체육관 : 코르니",
+      "type": "전기",
+      "level": 40,
+      "badge": "똘똘뱃지",
+      "cap": 60,
+      "mob": "코르니1",
+      "trainerNormal": "normal_gym4",
+      "trainerHard": "hard_gym4",
+      "battleLevel": 50
+    },
+    {
+      "name": "이슬",
+      "title": "5번째 체육관 : 이슬",
+      "type": "물",
+      "level": 60,
+      "badge": "퐁퐁뱃지",
+      "cap": 70,
+      "mob": "이슬1",
+      "trainerNormal": "normal_gym5",
+      "trainerHard": "hard_gym5",
+      "battleLevel": 60
+    },
+    {
+      "name": "오컬트마니아",
+      "title": "6번째 체육관 : 오컬트마니아",
+      "type": "고스트",
+      "level": 70,
+      "badge": "망령뱃지",
+      "cap": 80,
+      "mob": "오컬트마니아1",
+      "trainerNormal": "normal_gym6",
+      "trainerHard": "hard_gym6",
+      "battleLevel": 70
+    },
+    {
+      "name": "유카리",
+      "title": "7번째 체육관 : 유카리",
+      "type": "페어리",
+      "level": 70,
+      "badge": "루나뱃지",
+      "cap": 90,
+      "mob": "유카리1",
+      "trainerNormal": "normal_gym7",
+      "trainerHard": "hard_gym7",
+      "battleLevel": 80
+    },
+    {
+      "name": "아이리스",
+      "title": "8번째 체육관 : 아이리스",
+      "type": "드래곤",
+      "level": 70,
+      "badge": "자룡뱃지",
+      "cap": 100,
+      "mob": "아이리스1",
+      "trainerNormal": "normal_gym8",
+      "trainerHard": "hard_gym8",
+      "battleLevel": 90
+    }
+  ],
+  "start": [
+    "op: pokeheal",
+    "wait: 1",
+    "console: mv clone personalmap {player}-gym",
+    "console: mvtp {player} {player}-gym --unsafe"
+  ],
+  "battle": [
+    "op: 워프 이동 개인체육관{n}",
+    "wait: 40",
+    "console: execute at {player} run tbcs attach rctmod:{trainer} @e[name=\"{mob}\",distance=..30,limit=1]",
+    "wait: 10",
+    "op: 보정배틀 {battleLevel} GEN_9_SINGLES @p vs @e[name=\"{mob}\",distance=..30,limit=1] onwin {1:['체육관승리 {n} {player}'], 2:['체육관패배 {n} {player}']}"
+  ],
+  "win": [
+    "wait: 8",
+    "op: 워프 이동 체육관{n}",
+    "console: mv remove {player}-gym --remove-players",
+    "console: 월드폴더삭제 {player}-gym",
+    "wait: 60",
+    "badge",
+    "op: 아이템가져오기 {badge} 1",
+    "message:  <#ABEBFF>[<#9AE8FD>C<#88E4FB>o<#77E1F8>b<#65DDF6>b<#54DAF4>l<#54C1E8>e<#54A8DB>m<#5490CF>o<#5477C2>n<#545EB6>] <#A7E8FC>{badge}<#E1F1F6>를 획득했습니다.",
+    "op: 레벨캡설정 {player} {cap}",
+    "wait: 20",
+    "sound: creepy 0.5 1",
+    "totem"
+  ],
+  "lose": [
+    "wait: 8",
+    "op: 워프 이동 체육관{n}",
+    "console: mv remove {player}-gym --remove-players",
+    "console: 월드폴더삭제 {player}-gym"
+  ],
+  "exit": [
+    "op: 워프 이동 체육관{n}",
+    "op: stopbattle @p",
+    "console: mv remove {player}-gym --remove-players",
+    "console: 월드폴더삭제 {player}-gym"
+  ],
+  "exitBlocks": [
+    "minecraft:coal_block",
+    "minecraft:iron_block",
+    "minecraft:gold_block",
+    "minecraft:redstone_block",
+    "minecraft:emerald_block",
+    "minecraft:lapis_block",
+    "minecraft:diamond_block",
+    "minecraft:netherite_block"
+  ],
+  "gymWorldTag": "-gym",
+  "requirePokemon": true,
+  "requirePreviousBadges": true,
+  "openSound": "beep"
+}
